@@ -12,7 +12,7 @@ KCP 简介:
 
 参考的源代码为撰写文章时的[版本](https://github.com/skywind3000/kcp/tree/f553df7afc46fbad599bb6d92484baa02dc83f86)。本文不会完全贴上所有KCP的源代码，会在关键处添加指向源代码相应位置的链接。
 
-## 基本结构与数据类型参考
+## 基本结构参考
 
 ### IKCPSEG 结构
 
