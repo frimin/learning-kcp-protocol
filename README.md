@@ -342,7 +342,7 @@ IKCPSEG 的创建和销毁主要出现在上述四种情况，其它常见于内
 
 输出内容均为 KCP 代码内置的调试信息打印，通过 kcp_user_writelog 额外追加了 k1/k2 行前缀作为区分。
 
-对此代码的发送确认流程绘制完整的示意图描述为 ([两倍大图](imgs/kcp-basic-send-and-recv@2x.png)):
+对此代码的发送确认流程绘制完整的示意图描述为 ([两倍大图](https://github.com/frimin/learning-kcp-protocol/blob/main/imgs/kcp-basic-send-and-recv@2x.png)):
 
 ![](imgs/kcp-basic-send-and-recv.png)
 
@@ -489,7 +489,7 @@ UNA / ACK 确认示意图, 此图额外记录了流程示意图中未标记的 `
 
 此示意图为 "基本数据发送与接收流程" 小节中流程示意图步骤 3-1 至步骤 4-1 的另一种表现形式。作为步骤范围外的操作，数据方向均以半透明的箭头表示。
 
-所有数据通过箭头指向的函数处理前往新的位置 ([两倍大图](./imgs/kcp-queue-and-window@2x.png)):
+所有数据通过箭头指向的函数处理前往新的位置 ([两倍大图](https://github.com/frimin/learning-kcp-protocol/blob/main/imgs/kcp-queue-and-window%402x.png)):
 
 ![](./imgs/kcp-queue-and-window.png)
 
