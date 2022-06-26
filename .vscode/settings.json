@@ -1,0 +1,7 @@
+{
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "ikcp.h": "c",
+        "string.h": "c"
+    }
+}

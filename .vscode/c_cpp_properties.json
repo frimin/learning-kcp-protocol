@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "includePath": [
+                "${workspaceFolder}/kcp",
+                "${workspaceFolder}/jemalloc/include/jemalloc"
+            ],
+            "defines": [
+                "_GNU_SOURCE"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c99",
+            "cppStandard": "c++17",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
