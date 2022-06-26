@@ -927,3 +927,5 @@ rtomin 由 `kcp.rx_rto` 计算得出，如果开启了 nodelay 模式。rtomin �
 文章以 [知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议](https://creativecommons.org/licenses/by-nc-nd/4.0/) 许可。
 
 项目中代码使用 MIT 协议开源。
+
+关于图片字体: [Noto Sans SC](https://fonts.google.com/noto/specimen/Noto+Sans+SC)
