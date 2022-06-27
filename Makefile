@@ -6,7 +6,7 @@ all : kcp bin/kcp_basic bin/kcp_optional
 $(BIN_PATH) :
 	mkdir $(BIN_PATH)
 
-kcp :
+kcp/ikcp.c :
 	git submodule update --init
 
 bin/kcp_basic: src/kcp_basic.c kcp/ikcp.c | $(BIN_PATH)
